@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containerParticulas{
+    width: 95%;
+    height: 50vh;
+    background-color: rgb(9, 5, 17);
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.particula{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
